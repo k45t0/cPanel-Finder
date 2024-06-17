@@ -132,7 +132,7 @@ func isValidCPanel(domain string, port int) bool {
 	}
 
 	title := getTitleFromHTML(body)
-	return title == "cPanel Login"
+	return title == "cPanel"
 }
 
 func getTitleFromHTML(html []byte) string {
